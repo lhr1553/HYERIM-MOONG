@@ -3,8 +3,6 @@
 
 header{
     width:100%;
-
-    
 }
 
 
@@ -30,11 +28,16 @@ header>.header_wrap>div{
 
 .lnb>ul>li{
     float: left;
+    padding:35px 10px 25px 20px;
+}
+
+
+.lnb>ul>li>a{
     color:#898989;
     font-size:12px;
     line-height:10px;
-    padding:35px 10px 25px 20px;
 }
+
 
 .logo{
     float: left;
@@ -43,14 +46,20 @@ header>.header_wrap>div{
 
 .gnb>ul>li{
     float: left;
+    padding:35px 10px 35px 10px;
+   
+}
+
+.gnb>ul>li>a{
     color:#898989;
     font-size:12px;
     line-height:10px;
-    padding:35px 10px 35px 10px;
     vertical-align:middle;
 }
 
-.gnb>ul>li>button{
+
+
+.gnb>ul>li>a>button{
     width:110px;
     height:40px;
     color:#fff;
@@ -68,6 +77,10 @@ header>.header_wrap>div{
 .mnb>ul>li{
     float: left;
     padding:20px 50px;
+  
+}
+
+.mnb>ul>li>a{
     font-size:12px;
     line-height:10px;
     vertical-align:middle;
