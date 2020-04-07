@@ -87,3 +87,87 @@ header>.header_wrap>div{
     color:#333;
     font-weight:500;
 }
+
+.mainvisual{
+    width:100%;
+}
+
+.douglashouse{
+    width:1904px;
+    height:2800px;
+    margin:60px 400px  auto;
+    position: relative;
+}
+
+.douglashouse>hgroup{
+    margin-top:70px;
+}
+
+.douglashouse>hgroup>h2{
+    padding-bottom:30px;
+    text-align:left;
+}
+
+.douglashouse>hgroup>h3{
+    font-size:35px;
+    font-weight: 200;
+}
+
+.douglas_right{
+    position: absolute;
+    top:280px;
+    right:50%;
+}
+
+.Swing{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.daily_life{
+    font-size:20px;
+    color:#676767;
+    line-height:30px;
+    padding-bottom:150px;
+}
+
+.Reading{
+    position: absolute;
+    top:33%;
+    right:50%;
+
+}
+
+.forest>h4{
+    position: absolute;
+    top:49%;
+    left:35%;
+    font-size:40px;
+    color:#4c4c4c;
+}
+
+.forest>p{
+    position: absolute;
+    top:54%;
+    left:35%;
+    font-size:15px;
+    line-height:30px;
+    color:#939393;
+}
+.forest>article{
+    position: absolute;
+    top:60%;
+    left:35%;
+}
+
+.forest>article>h5{
+    font-size:17px;
+    line-height:30px;
+    color:#5f5f5f;
+}
+
+.forest>article>p{
+    font-size:13px;
+    line-height:30px;
+    color:#787878;
+}
