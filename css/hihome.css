@@ -42,7 +42,28 @@ header>#header_wrap>nav>ul>li>a{
 #header_wrap>nav>ul>li:hover{
     background-color:#000;
 }
+header>#header_wrap>nav>ul>li>ul>li{
+    border:1px solid rgba(255, 255, 255, 0.5);
+    height:26px;
+    background-color:rgba(0, 0, 0, 0.5);
+    font-size:9px;
+    
+}
+header>#header_wrap>nav>ul>li>ul>li>a{
+    color:#fff;
+}
 
+#header_wrap>nav>ul>li>ul>li:hover{
+    background-color:#000;
+}
+
+#header_wrap ul ul{
+    display:none;
+}
+
+#header_wrap ul li:hover>ul{
+    display:block;
+}
 section{
     width:100%;
     margin:0 auto;
@@ -86,15 +107,15 @@ section>#main_wrap>.text{
 }
 
 section>#more_wrap{
-    width:100%;
-    margin-left:20%;
+    width:1000px;
+    margin:0 auto;
     
 }
 
 section>#more_wrap>article{
     float: left;
     background:rgba(0, 0, 0, 0.8);
-    width:18%;
+    width:300px;
     height:160px;
     padding-left:30px;
     padding-top:30px;
@@ -129,19 +150,16 @@ section>#more_wrap>article>div>ul>li{
     text-overflow:ellipsis;
     white-space:nowrap;
     word-wrap:normal;
-    width:200px;
+    width:250px;
     overflow:hidden;
 }
 
 section>#more_wrap>article:nth-child(3){
     background-color:#000;
-    width:18%;
+    width:300px;
     height:160px;
 }
 
-section>#more_wrap>article:nth-child(3)>h3{
-    font-size:
-}
 
 
 
