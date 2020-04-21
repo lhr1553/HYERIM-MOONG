@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+
+
+header>#hearder_wrap{
+    width:1000px;
+    height:157px;
+    margin:0 auto;
+    padding:14px 0 29px;
+}
+header>#hearder_wrap>nav>ul{
+    float:right;
+}
+header>#hearder_wrap>nav>ul>li{
+    float: left;
+   
+    
+    
+}
+
+header>#hearder_wrap>nav>ul>li:nth-child(1),
+header>#hearder_wrap>nav>ul>li:nth-child(2){
+    height:8px;
+    border-right:1px solid #828282;
+    padding:8px;
+}
