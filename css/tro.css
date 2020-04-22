@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+header{
+    width:100vw;
+    font-family:"nanumB";
+    /* background-image:url('../img/background-01.png');
+    background-repeat:no-repeat; */
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
+header>#header_wrap{
+    width:87%;
+    margin:0 auto;
+    /* position: absolute;
+    top:0;
+    left:0; */
+    padding-top:60px;
+    display:flex;
+    justify-content: center;
+   
+}
+
+header>#header_wrap>h2{
+    flex-grow:2;
+    flex-basis:30%;;
+}
+
+header>#header_wrap>nav{
+    flex-grow:1;
+    margin-top:20px;
+    flex-basis:70%;
+}
+
+header>#header_wrap>nav>ul{
+    display:flex;
+}
+
+header>#header_wrap>nav>ul>li{
+    padding-right:68px;
+}
+
+header>#header_wrap>nav>ul>li>a{
+    color:#fff;
+    font-size:14px;
+    line-height:14px;
+}
+header>#header_wrap>nav>ul>li:nth-child(4)>a{
+    color:#ffccff;
+}
+
+section>#mainvisual{
+    width:100%;
+    background-color:linear-gradient(#3ed1a4, #6dc4e1, #7389ff);
+    background-image:url('../img/background-01-01.png');
+    background-repeat: no-repeat;
+    background-size:1800px;
+    text-align:center;
+    padding:280px 0 614px;
+    font-family:"nanumB";
+}
+
+section>#mainvisual>p{
+    font-size:32px;
+    line-height:40px;
+    color:#fff;
+    padding-bottom:45px;
+}
+
+section>#mainvisual>h2{
+    font-size:120px;
+    line-height:72px;
+    color:#fff;
+}
+
+section>#mainvisual>h2>span{
+    color:#ffccff;
+}
+
+section>#section_inner{
+    width:100%;
+    height:800px;
+    background-image:url('../img/background-02.png');
+    background-repeat: no-repeat;
+    background-size:1800px;
+    position: relative;
+    top:0;
+    left:0;
+}
+
+section>#section_inner>img{
+    position: absolute;
+    top:-40%;
+    left:35%;
+    z-index:1;
+    cursor: pointer;
+    transition:0.2s;
+    animation-name:hi;
+}
+
+section>#section_inner>img:hover{
+    background:#00ffae;
+    box-shadow: 0 0 10px #00ffae,0 0 40px #00ffae,
+    0 0 80px #00ffae;
+    animation-play-state:paused;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-fill-mode: both, forwards, none;
+}
+
+@keyframes hi {
+    from {
+        width:100px;
+    }
+    to {
+        width:35%;
+    }
+} 
