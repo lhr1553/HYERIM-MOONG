@@ -1,0 +1,87 @@
+@charset "utf-8";
+#top{
+    width:100%;
+    background-color:#f6f6f6;
+}
+
+.top_menw{
+    width:960px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
+
+.top_menw h1 img{
+    width:135px;
+    height:40px;
+    padding-top:5px;
+    padding-right:30px;
+}
+
+
+.top_wrap{
+    width:825px;
+    display:flex;
+}
+
+.tap_type1 ul{
+    display:flex;
+    flex:1;
+}
+
+.tap_type1 ul li{
+    height:50px;
+    width:110px;
+    text-align:center;
+    border-left:none;
+    line-height:48px;
+    border:1px solid #c5c5c5;
+}
+.tap_type1 ul li:nth-child(1){
+    background-color:#fff;
+    border:none;
+    height:50px;
+    border-left:1px solid #c5c5c5;
+    border-bottom:1px solid #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.tap_type1 ul li:nth-child(2){
+    border-top:none;
+    border-bottom:none;
+}
+
+.tap_type1 ul li:nth-child(3){
+   border-left:none;
+    border-top:none;
+    border-bottom:none;
+}
+.tap_type1 ul li:hover{
+    background-color:#fff;
+}
+
+.tap_type1 ul li a{
+    text-align:center;
+    color:#494949;
+    font-weight: bold;
+    font-size:14px;
+}
+
+.tap_type2 ul{
+    display:flex;
+}
+
+
+.tap_type2 ul div .language{
+    display: block;
+    /* width: 72px; */
+    height: 15px;
+    padding-right: 18px;
+    background: url(https://wwwcdn.everland.com/web/images/front/everland/menu/btn_more_down.gif) no-repeat right 1px;
+    color: #757575;
+    line-height: 15px;
+    font-weight: bold;
+}
