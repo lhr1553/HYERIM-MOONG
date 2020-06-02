@@ -1,0 +1,368 @@
+@charset "utf-8";
+
+header{width:100%; border-top:5px solid #009223;height:165px;  background-color:#fff;position: relative;;top:0;left:0;z-index:999;}
+.header_wrap{max-width:1280px; margin:0 auto; position:relative;}
+.header_wrap h1{position: absolute; top:35px; left: 50%;transform: translateX(-50%); }
+.header_wrap .sub{position: absolute; top:45px; right:25px;}
+.sub ul>li{float:left; margin-left:5px;}
+.sub ul a{display:block;height:28px;border:1px solid #dddddd;padding:0 13px;border-radius:20px;
+line-height:28px;color:#666;font-size:13px;}
+.m_sub{display:none;}
+.background_gnb{width:100%;background:#fff;height:44px;position: absolute;top:120px;left:0;overflow: hidden;transition:1s;}
+.background_gnb:hover{height:325px;}
+.background_gnb:after{
+    content:"";
+    width:100%;
+    height:1px;
+    position: absolute;
+    top:60px;
+    left:0;
+    background:#e5e5e5;;
+}
+.gnb{position: absolute;top:0;left:0;text-align:center;width:100%;height:44px;z-index:800;}
+.gnb>ul{display:inline-block;}
+.gnb>ul>li{float:left;width:180px;}
+.gnb a{font-size:18px;color:#292929;font-weight:bold;position: relative; z-index:5;padding-top:20px;
+display:block;}
+.gnb .de02{width:100%;padding-top:47px;} 
+.gnb .de02 a{font-size:15px;font-weight:initial; color:#666;padding:8px 0 9px;display:block;letter-spacing:1px;}
+.mainvisual{position: relative;}
+.swiper-container {width: 100%; height: 100%;}
+.swiper-slide {text-align: center; font-size: 18px;background: #fff;
+/* Center slide text vertically */
+display: -webkit-box; display: -ms-flexbox;display: -webkit-flex;
+display: flex;-webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;
+justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;
+align-items: center;}
+.store{position: absolute;bottom:-60px;;right:10%;z-index:5;}
+.store li{float:left;}
+.store li a{display:block;width:300px;height:80px;text-align:center;line-height:80px;}
+.store .store_find{background:#ffce32; border-radius:30px 0 0 0;}
+.store .store_apply{background:#009223; border-radius:0 0 30px 0;}
+.store strong{font-size:22px;color:#292929;padding: 27px 0 0 30px}
+.store .store_apply strong{color:#fff;}
+.store .store_find strong:before{
+    content:"";
+    background:url('http://www.subway.co.kr/images/main/icon_map.png') 0 0 no-repeat;
+    width:24px;
+    height:30px;
+    position: absolute;
+    top:25px;
+    left:15%;
+    z-index:2;
+}
+.store .store_apply strong:before{
+    content:"";
+    background:url('http://www.subway.co.kr/images/main/icon_franchise.png') 0 0 no-repeat;
+    width:24px;
+    height:30px;
+    position: absolute;
+    top:25px;
+    right:35%;
+    z-index:2;
+}
+
+.m_gnb{display:none;}
+#menu_subway{width:100%;}
+.menu_subway{width:1280px; margin:0 auto;padding:80px 0;}
+.menu_subway h2{color:#292929; font-size:40px; font-weight: bold; background:url('http://www.subway.co.kr/images/main/bul_tit.png') 0 12px no-repeat;
+padding:17px 0 20px 25px;}
+.menu_subway .menu_list{float:right; position: relative;}
+.menu_list li{float:left; padding:0 0 0 25px; }
+.menu_list li:nth-child(1):after{
+    content: "";
+    width:1px;
+    height:16px;
+    background:#ddd;
+    position: absolute;
+    top:0;
+    left:85px;
+}
+.menu_list li:nth-child(2):after{
+    content: "";
+    width:1px;
+    height:16px;
+    background:#ddd;
+    position: absolute;
+    top:0;
+    left:210px;
+}
+.menu_list li:nth-child(3):after{
+    content: "";
+    width:1px;
+    height:16px;
+    background:#ddd;
+    position: absolute;
+    top:0;
+    left:295px;
+}
+.menu_list li a{font-size:16px;color:#666;font-weight:300;letter-spacing:-0.75px;position: relative;z-index:2}
+.menu_list li a:hover{color:#009223;font-weight:bold;letter-spacing:-0.75px;}
+
+.swiper-container2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  
+}
+
+.box_group{display:flex;width:90%;}
+.box_group > div {flex:1;margin:10px;border:1px solid gray; }
+.menu h3{font-size:18px; color:#292929;margin:3px 0 10px;}
+.menu p{font-size:13px;color:#999;line-height:22px;}
+.swiper-button-next{position: absolute;top:800px !important;left:0;}
+.swiper-button-prev{position: absolute;top:800px !important;RIGHT:0;}
+.mune_wrap .menu h3{font-size:18px; color:#292929; margin:3px 0 10px;text-align:center;font-weight: bold;}
+.mune_wrap .menu p{font-size:13px; color:#999;width:260px;margin:0 auto;text-align:center;}
+#content_joy{width:100%;background:url('http://www.subway.co.kr/images/main/bg_content.gif')0 0 repeat;padding:170px 0 60px 0;}
+.content_joy{width:1280px; margin:0 auto;}
+.joy{background:url('http://www.subway.co.kr/images/main/bg_utilization.png') 0 0 no-repeat;
+width:400px; height:300px; margin-left:55px; float:left; position:relative;box-sizing:border-box;}
+.joy h2{color:#fff;font-size:28px;font-weight:bold;line-height:40px;position: absolute;left:41px;top:42px;}
+.joy a{position: absolute;left:41px;bottom:42px;border:2px solid #fff;width:92px;height:42px;border-radius:92px;}
+.joy span{display:block;height:36px; line-height:36px;color:#fff;text-align:Center;font-size:16px;}
+.subway_history{background:url(http://www.subway.co.kr/images/main/img_subway_history.png)0 0 no-repeat; float:left;width:825px;height:300px;position: relative;box-sizing:border-box;margin-bottom:45px;}
+.subway_history h2{color:#fff;font-size:28px;font-weight:bold; line-height:40px;position: absolute;top:38px;left:410px;}
+.subway_history a{position: absolute;left:410px;bottom:42px;border:2px solid #fff;width:128px;border-radius:410px;}
+.subway_history span{display:block;height:36px;line-height:36px;font-size:16px;font-weight: bold;color:#fff;text-align:center;}
+#new{background:#fff;width:870px;height:300px;border-radius:30px 0 30px 0;float:left;position: relative;margin: 30px 20px 0 55px;}
+.news{position: absolute; top:75px; left:60px;margin:30px 20px 0 55px;}
+.news h2{color:#292929;font-size:30px;font-weight:bold;background:url('http://www.subway.co.kr/images/main/bul_tit.png')0 0 no-repeat;
+padding:17px 0 20px 25px;}
+.news p{line-height:26px;padding-left:20px;color:#666;font-weight: bold;}
+.new_subway{position: absolute;top:76px;left:389px;}
+.new_subway ul li {margin-top:21px;}
+.new_subway ul li a{display:inline-block;font-size:16px;color:#292929;position: relative;font-weight: bold;}
+.more{display:inline-block; color:#999; font-size:14px;padding-top:20px;}
+.banner{float:left;width:285px;height:300px;margin:30px 30px 0 0;border-radius:0 30px 0 30px;background:#fff;}
+.banner img{padding-left:10px;width:250px;}
+#quick_menu{width:100%;background:#fff;}
+.quick_menu{width:1280px; margin:0 auto;text-align:center;padding:40px 0 37px;}
+.quick_menu ul{display:inline-block;}
+.quick_menu ul li{float:left;margin-left:80px;}
+.qm1 a{position: relative;display:block;height:70px;}
+.qm1 .icon{background:url('../icon/open-icon.png')no-repeat;
+width:70px;height:70px;text-indent: -99999px;float:left;}
+.qm2 a{position: relative;display:block;height:70px;}
+.qm2 .icon{background:url('../icon/map-icon.png')no-repeat;width:70px;height:70px;text-indent: -99999px;float:left;}
+.qm3 a{position: relative;display:block;height:70px;}
+.qm3 .icon{background:url('../icon/video-icon.png')no-repeat;width:70px;height:70px;text-indent: -99999px;float:left;}
+.qm3 a{position: relative;display:block;height:70px;}
+.qm3 .icon{background:url('../icon/open-icon.png')no-repeat;width:70px;height:70px;text-indent: -99999px;float:left;}
+.qm4 a{position: relative;display:block;height:70px;}
+.qm4 .icon{background:url('../icon/question-icon.png')no-repeat;width:70px;height:70px;text-indent: -99999px;float:left;}
+.qm{width:200px;height:70px;padding:20px;}
+.qm strong{color:#292929;font-size:18px;display:block;text-align:center;}
+.qm p{font-size:13px;color:#999;display:block;margin-top:6px;text-align:center;}
+footer{width:100%;background:#292929;position: relative;padding:22px 0;color:#666}
+ .footer:after{
+    content:"";
+    width:100%;
+    height:1px;
+    background:#666;
+    position: absolute;
+    top:45px;
+    left:0;
+} 
+.footer_wrap{width:1280px;margin: 0 auto;}
+.util_menu{margin-bottom:25px;}
+.util_menu li{float:left;margin-left:29px;}
+.util_menu li a{font-size:14px;display:block;color:#666;}
+.util_menu li:nth-child(1)>a{font-weight:bold;}
+.infromation{margin-top:19px;margin-left:29px;}
+.infromation span{font-size:13px;display:inline-block;position: relative;}
+.infromation p{font-size:13px;padding-top:2px;line-height:25px;}
+.instrgram{position: absolute;
+    right: 205px;
+    bottom: 3px;
+    overflow: hidden;
+    text-indent: -9999px;
+    font-size: 0;
+    line-height: 0;
+    width: 50px;
+    height: 50px;
+    background:url(../icon/icon_sns_instar.png);}
+.facebook{position: absolute;
+    right: 140px;
+    bottom: 3px;
+    overflow: hidden;
+    text-indent: -9999px;
+    font-size: 0;
+    line-height: 0;
+    width: 50px;
+    height: 50px;
+    background:url(../icon/icon_sns_face.png)}
+
+    
+@media (max-width:1220px){
+    header{width:100%}
+    .header_wrap{width:100%}
+    .sub ul>li{float:left; margin-left:5px;}
+    .sub ul a{display:block;height:28px;padding:0 8px;border-radius:20px;line-height:28px;color:#666;font-size:10px;}
+    .background_gnb{width:100%;}
+    .store{position: absolute;bottom:-20px;;right:10%;}
+    .store li a{width:100px;height:40px;line-height:40px;}
+    .store .store_find{background:#ffce32; border-radius:10px 0 0 0;}
+    .store .store_apply{background:#009223; border-radius:0 0 10px 0;}
+    .store strong{font-size:12px;color:#292929;padding: 10px 0 0 5px}
+    .store .store_apply strong{color:#fff;}
+    .store .store_find strong:before{ content:none;}
+    .store .store_apply strong:before{content:none;}
+    #menu_subway{width:100%;}
+    .menu_subway{width:100%;}
+    .menu_list{padding-right:60px;}
+    .mune_slider{max-width:100%;}
+    .swiper-container2{width:100%}
+    .swiper-button-next{position: absolute;top:660px !important;left:0;}
+    .swiper-button-prev{position: absolute;top:660px !important;RIGHT:0;}
+
+    #content_joy{width:100%;background:url('http://www.subway.co.kr/images/main/bg_content.gif')0 0 repeat;padding:170px 0 60px 0;}
+    .content_joy{width:100%;}
+    .joy{background:url('http://www.subway.co.kr/images/main/bg_utilization.png') 0 0 no-repeat;
+        width:400px; height:300px; margin-left:43px; float:left; position:relative;box-sizing:border-box;}
+    .joy h2{color:#fff;font-size:14px;font-weight:bold;line-height:20px;position: absolute;left:41px;top:42px;}
+    .joy a{position: absolute;left:41px;bottom:32px;border:2px solid #fff;width:51px;height:25px;border-radius:21px;}
+    .joy span{display:block;height:25px; line-height:25px;color:#fff;text-align:Center;font-size:10px;}
+    .subway_history{background:#ff8300; float:left;width:525px;height:300px;position: relative;box-sizing:border-box;margin-bottom:45px;border-radius:0 60px 0 60px;}
+    .subway_history h2{color:#fff;font-size:28px;font-weight:bold; line-height:40px;position: absolute;top:38px;left:10%;}
+    .subway_history a{position: absolute;left:10%;bottom:42px;border:2px solid #fff;width:128px;border-radius:410px;}
+    .subway_history span{display:block;height:36px;line-height:36px;font-size:16px;font-weight: bold;color:#fff;text-align:center;}
+    #new{background:#fff;width:525px;height:300px;border-radius:30px 0 30px 0;float:left;position: relative;margin: 30px 20px 0 43px;}
+    .news{position: absolute; top:75px; left:-20px;margin:30px 20px 0 55px;}
+    .news h2{color:#292929;font-size:30px;font-weight:bold;background:url('http://www.subway.co.kr/images/main/bul_tit.png')0 0 no-repeat;
+    padding:17px 0 20px 25px;}
+    .news p{line-height:26px;padding-left:10px;color:#666;font-weight: bold;}
+    .new_subway{position: absolute;top:76px;left:280px;}
+    .new_subway ul li {margin-top:21px;}
+    .new_subway ul li a{display:inline-block;font-size:16px;color:#292929;width:190px;position: relative;font-weight: bold; overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+    .more{display:inline-block; color:#999; font-size:14px;padding-top:20px;}
+    .banner{float:left;width:400px;height:300px;margin:30px 15px 0 0;border-radius:0 30px 0 30px;background:#fff;}
+    .banner img{padding-left:20%;width:250px;}
+    #quick_menu{width:100%;background:#fff;}
+    .quick_menu{width:100%;}
+    .quick_menu ul li{float:left;margin-left:0;}
+    footer{width:100%;}
+}
+
+@media (max-width:768px){
+    header{width:100%;}
+    .header_wrap{width:100%;}
+    .background_gnb{width:100%;}
+    .background_gnb:hover{height:200px;}
+    .gnb{width:100%;}
+    .gnb>ul>li{;width:120px;}
+    .gnb .de02{width:100%;padding-top:47px;} 
+    .gnb .de02 a{font-size:10px;font-weight:initial; color:#666;padding:8px 0 9px;display:block;letter-spacing:1px;}
+    .swiper-container2{width:100%;}
+    .swiper-button-next{position: absolute;top:660px !important;left:0;}
+    .swiper-button-prev{position: absolute;top:660px !important;RIGHT:0;}
+    #content_joy{width:100%;padding:60px 0 60px 0;}
+    .content_joy{width:100%;}
+    .joy{width:700px;height:300px;background:#01a5e2; border-radius: 60px 0 60px 0;margin-bottom:30px;}
+    .joy h2{color:#fff;font-size:28px;font-weight:bold; line-height:40px;position: absolute;top:38px;left:10%;}
+    .joy a{position: absolute;left:10%;bottom:42px;border:2px solid #fff;width:128px;border-radius:410px;}
+    .subway_history{width:700px;height:300px;background:#ff8300; border-radius: 0 60px 0 60px;margin:0 0 30px 43px}
+    #new{width:700px;height:300px;background:#ffffff; border-radius: 60px 0 60px 0;margin-bottom:30px;}
+    .news{position: absolute; top:75px; left:-10px;margin:30px 20px 0 55px;}
+    .news h2{color:#292929;font-size:30px;font-weight:bold;background:url('http://www.subway.co.kr/images/main/bul_tit.png')0 0 no-repeat;
+    padding:17px 0 20px 25px;}  
+    .new_subway{position: absolute;top:76px;left:320px;}
+    .new_subway ul li {margin-top:21px;}
+    .new_subway ul li a{display:inline-block;font-size:16px;color:#292929;width:230px;position: relative;font-weight: bold; overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+    .banner{width:700px;height:300px;background:#ffffff; border-radius: 0 60px 0 60px;margin:0 0 30px 43px}
+    .banner img{padding-left:30%;width:250px;}
+    #quick_menu{width:100%;background:#fff;}
+    .quick_menu{width:100%;}
+    .qm{width:150px;height:70px;padding:20px;}
+    .qm strong{font-size:14px;}
+    footer{width:100%;}
+    .footer_wrap{width:100%;}
+    .instrgram{position: absolute;
+        right:80px;
+        bottom: 3px;
+        overflow: hidden;
+        text-indent: -9999px;
+        font-size: 0;
+        line-height: 0;
+        width: 50px;
+        height: 50px;
+        background:url(../icon/icon_sns_instar.png);}
+    .facebook{position: absolute;
+        right: 30px;
+        bottom: 3px;
+        overflow: hidden;
+        text-indent: -9999px;
+        font-size: 0;
+        line-height: 0;
+        width: 50px;
+        height: 50px;
+        background:url(../icon/icon_sns_face.png)}
+}
+@media (max-width: 480px){
+    header{width:100%;height:80px;}
+    .header_wrap{width:100%;}
+    .sub{display:none;}
+    .m_sub{display:block;position: absolute;top:35px;right:10px;}
+    .background_gnb{display:none;}
+    .gnb{display:none;}
+    .m_gnb{display:block;position: absolute;top:42px;left:10px;}
+    .mainvisual{width:100%;}
+    .store{display:none;}
+    #menu_subway{width:100%;}
+    .menu_subway{width:100%;padding:30px 0;}
+    .menu_list{display:none;}
+    .img{width:340px;}
+    .swiper-button-next{position: absolute;top:400px !important;left:0;}
+    .swiper-button-prev{position: absolute;top:400px !important;RIGHT:0;}
+
+    .menu_subway h2{font-size:20px;}
+    .menu h3{font-size:12px;}
+    .menu p{font-size:8px;}
+    .joy{width:300px;height:300px;background:#01a5e2; border-radius: 60px 0 60px 0;margin-bottom:30px;}
+    .joy h2{color:#fff;font-size:28px;font-weight:bold; line-height:40px;position: absolute;top:38px;left:10%;}
+    .joy a{position: absolute;left:10%;bottom:42px;border:2px solid #fff;width:128px;border-radius:410px;}
+    .subway_history{width:300px;height:300px;background:#ff8300; border-radius: 0 60px 0 60px;margin:0 0 30px 43px}
+    #new{width:300px;height:300px;background:#ffffff; border-radius: 60px 0 60px 0;margin-bottom:30px;}
+    .news{position: absolute; top:75px; left:-10px;margin:30px 20px 0 55px;}
+    .news h2{color:#292929;font-size:30px;font-weight:bold;background:url('http://www.subway.co.kr/images/main/bul_tit.png')0 0 no-repeat;
+    padding:17px 0 20px 25px;}  
+    .new_subway{display:none;}
+    .banner{width:300px;height:300px;background:#ffffff; border-radius: 0 60px 0 60px;margin:0 0 30px 43px}
+    .banner img{padding:25%;width:150px;}
+    #quick_menu{width:100%;background:#fff;}
+    .quick_menu{width:100%;padding:25px 43px;}
+    .quick_menu .icon{padding-right:40px;}
+    .qm{width:300px;height:70px;padding:20px;}
+    .qm strong{font-size:14px;}
+    footer{width:100%;}
+    .footer_wrap{width:100%;}
+    .util_menu{padding-right:5px;}
+    .util_menu ul li{margin-left:20px;}
+    .util_menu ul li a{font-size:10px;}
+    .infromation{width:100%;margin-left:20px;}
+    .infromation span{font-size:10px;}
+    .infromation .copy{display:none;}
+    .infromation .copy2{font-size:10px;}
+    .instrgram{display:none;}
+    .facebook{display:none;}
+
+}

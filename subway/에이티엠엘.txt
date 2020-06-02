@@ -1,0 +1,17 @@
+    <section class="mainvisual">
+        <div class="mainvisual_wrap">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="http://www.subway.co.kr/upload/banner/main_PC_1920x440_20200427112254027.jpg"></div>
+                    <div class="swiper-slide"><img src="http://www.subway.co.kr/upload/banner/00_써브웨이_Main_02_20200427112753722.jpg"></div>
+                </div>
+                <div class="store">
+                    <ul>
+                        <li><a href="#" class="store_find"><strong>매장찾기</strong></a></li>
+                        <li><a href="#" class="store_apply"><strong>가맹신청&#183;문의</strong> </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+

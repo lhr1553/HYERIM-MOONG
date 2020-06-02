@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUBWAY 써브웨이</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <style>
+        .swiper-pagination { position: absolute; bottom: 10% !important; right: 10px !important;}
+        .swiper-pagination-bullet {
+        border-radius: 30px;
+        width: 10px;
+        height: 10px;
+        color:#fff;
+        background: #fff;
+    }
+    .swiper-pagination-bullet-active {
+        color:#fff;
+        background: #ffce32;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header_wrap">
+            <h1>
+                <a href="#">
+                    <img src="http://www.subway.co.kr/images/common/logo_w.png">
+                </a>
+            </h1>
+            <nav class="sub">
+                <ul>
+                    <li><a href="#">매장찾기</a></li>
+                    <li><a href="#">가맹신청&#183;문의</a></li>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#"><img src="http://www.subway.co.kr/images/common/icon_global_subway.png"></a></li>
+                </ul>
+            </nav>
+            <div class="m_sub">
+                <a href="#">
+                    <img src="icon/user.png">
+                </a>
+            </div>
+            <div class="m_gnb">
+                <a href="#">
+                    <img src="icon/nav.png">
+                </a>
+            </div>
+        </div>
+        <div class="background_gnb">
+            <nav class="gnb">
+                <ul class="depth1">
+                    <li><a href="#">메뉴소개</a>
+                        <nav class="de02">
+                            <ul>
+                                <li><a href="#">샌드위치</a></li>
+                                <li><a href="#">랩</a></li>
+                                <li><a href="#">찹샐러드</a></li>
+                                <li><a href="#">스마일썹</a></li>
+                                <li><a href="#">단체메뉴</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li><a href="#">이용방법</a>
+                        <nav class="de02">
+                            <ul>
+                                <li><a href="#">써브웨이 이용방법</a></li>
+                                <li><a href="#">단체메뉴 이용방법</a></li>
+                                <li><a href="#">신선한 재료소개</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li><a href="#">새소식</a>
+                        <nav class="de02">
+                            <ul>
+                                <li><a href="#">이벤트&#183;프로모션</a></li>
+                                <li><a href="#">뉴스&#183;공지사항</a></li>
+                                <li><a href="#">광고영상</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li><a href="#">써브웨이</a>
+                        <nav class="de02">
+                            <ul>
+                                <li><a href="#">써브웨이 역사</a></li>
+                                <li><a href="#">써브웨이 약속</a></li>
+                                <li><a href="#">샌드위치 아티스트 지원</a></li>
+                                <li><a href="#">매장찾기</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li><a href="#">가맹점</a>
+                        <nav class="de02">
+                            <ul>
+                                <li><a href="#">써브웨이 프랜차이즈</a></li>
+                                <li><a href="#">가맹관련 FQA</a></li>
+                                <li><a href="#">가맹신청 &#183; 문의</a></li>
+                                <li><a href="#">지사안내</a></li>
+                                <li><a href="#">사업설명회</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+    <section class="mainvisual">
+        <div class="mainvisual_wrap">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="http://www.subway.co.kr/upload/banner/main_PC_1920x440_20200427112254027.jpg"></div>
+                <div class="swiper-slide"><img src="http://www.subway.co.kr/upload/banner/00_써브웨이_Main_02_20200427112753722.jpg"></div>
+                </div>
+                
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="store">
+                <ul>
+                    <li><a href="#" class="store_find"><strong>매장찾기</strong></a></li>
+                    <li><a href="#" class="store_apply"><strong>가맹신청&#183;문의</strong> </a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+      </script>
+    
+    <section id="menu_subway">
+        <div class="menu_subway">
+            <h2>Subway's Menu</h2>
+                <nav class="menu_list">
+                    <ul>
+                        <li><a href="#">클래식</a></li>
+                        <li><a href="#">프레쉬&라이트</a></li>
+                        <li><a href="#">프리미엄</a></li>
+                        <li><a href="#">아침메뉴</a></li>
+                    </ul>
+                </nav>
+                <div class="swiper-container2">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img src="http://www.subway.co.kr/images/menu/sandwich_cl06.jpg">
+                            </div>
+                            <div class="menu">
+                                <h3>에그마요</h3>
+                                <p>친환경 인증을 받은 농장에서 생상된 달걀과<br>
+                                고소한 마요네즈가 만나 더 부드러운<br>
+                                스테디셀러</p>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img src="http://www.subway.co.kr/images/menu/sandwich_cl01.jpg">
+                            </div>
+                            <div class="menu">
+                                <h3>이탈리안 비엠티</h3>
+                                <p>7시간 속성 페페로니,살라미<br>
+                                그리고 햄이 만들어내는 최상의 조화!<br>
+                                전세계가 사랑하는 No.1 베스트셀러<br>
+                                </p>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img src="http://www.subway.co.kr/images/menu/sandwich_cl02.jpg">
+                            </div>
+                            <div class="menu">
+                                <h3>비엘티</h3>
+                                <p>오리지널 아메리칸 배이컨의<br>
+                                풍미와 바삭함 그대로~
+                                </p>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img src="http://www.subway.co.kr/images/menu/sandwich_cl03.jpg">
+                            </div>
+                            <div class="menu">
+                                <h3>미트볼</h3>
+                                <p>이탈리안 스타일 미프 미트볼에<br>
+                                써브웨이만의 풍부한 토마토 향이 살아있는<br>
+                                마리나라소스를 듬뿍
+                                </p>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img src="http://www.subway.co.kr/images/menu/sandwich_fl01.jpg">
+                            </div>
+                            <div class="menu">
+                                <h3>로티세리 바비큐 치킨</h3>
+                                <p>촉촉한 바비큐 치킨의 풍미가득.<br>
+                                손으로 찢어 더욱 부드러운 치킨의 혁명
+                                </p>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img src="http://www.subway.co.kr/images/menu/sandwich_fl02.jpg">
+                            </div>
+                            <div class="menu">
+                                <h3>로스트치킨</h3>
+                                <p>오븐에 구워 담백한 저칼로리<br>
+                                닭가슴살의 건강한 풍미
+                                </p>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img src="http://www.subway.co.kr/images/menu/sandwich_fl04.jpg">
+                            </div>
+                            <div class="menu">
+                                <h3>써브웨이클럽</h3>
+                                <p>명실공히 시그니처 써브!<br>
+                                터키,비프,포크 햄의 완벽한 앙상블
+                                </p>
+                            </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img src="http://www.subway.co.kr/images/menu/sandwich_fl05.jpg">
+                            </div>
+                            <div class="menu">
+                                <h3>터키</h3>
+                                <p>280kcal로 슬림하게 즐기는<br>
+                                오리지널 터키 샌드위치
+                                </p>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img src="http://www.subway.co.kr/images/menu/sandwich_pm10.jpg">
+                            </div>
+                            <div class="menu">
+                                <h3>쉬림프</h3>
+                                <p>탱클한 식감이 그대로 살아있는 통새우가<br>
+                                5마리가 들어가 한 입 베어먹을때마다<br>
+                                진짜 새우의 풍미가 가득
+                                </p>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img src="http://www.subway.co.kr/images/menu/sandwich_pm08.jpg">
+                            </div>
+                            <div class="menu">
+                                <h3>폴드포크</h3>
+                                <p>7시간 저온 훈련한 미국 정통스타일의<br>
+                                리얼 바비큐 폴드포크는 오직 써브웨이에서
+                                </p>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img src="http://www.subway.co.kr/images/menu/sandwich_pm01.jpg">
+                            </div>
+                            <div class="menu">
+                                <h3>스테이크&치즈</h3>
+                                <p>육즙이 쫙~<br>
+                                풍부한 비프스테이크의 입안 한가득
+                                </p>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img src="http://www.subway.co.kr/images/menu/sandwich_bf01.jpg">
+                            </div>
+                            <div class="menu">
+                                <h3>블랙 포레스트햄&에그,치즈</h3>
+                                <p>푹신한 오믈렛과 햄의 가장 클래식한 조화</p>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img src="http://www.subway.co.kr/images/menu/sandwich_bf02.jpg">
+                            </div>
+                            <div class="menu">
+                                <h3>웨스턴, 에그 & 치즈</h3>
+                                <p>토마토,피망,양파 세가지 야채가 더해져<br>
+                                더욱 신선한 하루 시작
+                                </p>
+                            </div>
+                        </a>
+                      </div>
+                    </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+    </section>
+    <script>
+        var swiper = new Swiper('.swiper-container2', {
+            slidesPerView: 3,
+            spaceBetween:40,
+            autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+            },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        breakpoints: {
+            320: {
+            slidesPerView: 1,
+            spaceBetween: 20
+            },
+            480: {
+                slidesPerView: 2,
+                spaceBetween:20,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            1024: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+        }
+        });
+    </script>
+</body>
+</html>
+
+    <section id="content_joy">
+        <div class="content_joy clearfix">
+            <div class="joy">
+                <h2>써브웨이를<br> 제대로 즐기는 방법!</h2>
+                <a href="#"><span>이용방법</span></a>
+            </div>
+            <div class="subway_history">
+                <div>
+                    <h2>50년 역사를 가진<br>
+                    No.1 프랜차이즈의 성장기</h2>
+                    <a href="#"><span>써브웨이 역사</span></a>
+                </div>
+            </div>
+            <div id="new">
+                <div class="news">
+                    <h2>What's New</h2>
+                    <p>써브웨이의 다양한 소식을<br> 빠르게 전달해드립니다.</p>
+                </div>
+                <div class="new_subway">
+                    <ul>
+                        <li><a href="#">써브웨이 2020년 3월 가격 안내</a></li>
+                        <li><a href="#">써브웨이와 함께하는 tvN'금요일금요일밤에'</a></li>
+                        <li><a href="#">써브웨이 고객센터 2020년 설 연휴 휴무안내</a></li>
+                    </ul>
+                    <a href="#" class="more">more</a>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="http://www.subway.co.kr/upload/banner/subway_logo_bn_20200428010834488.png">
+            </div>
+
+        </div>
+    </section>
+    <div id="quick_menu">
+        <div class="quick_menu clearfix">
+            <ul>
+                <li class="qm1"><a href="#">
+                    <div class="icon">icon</div>
+                    <div class="qm">
+                        <strong>프랜차이즈</strong>
+                        <p>개설절차/투자비용정보</p>
+                    </div>
+                </a></li>
+                <li class="qm2"><a href="#">
+                    <div class="icon">icon</div>
+                    <div class="qm">
+                        <strong>자사안내</strong>
+                        <p>개설절차/투자비용정보</p>
+                    </div>
+                </a></li>
+                <li class="qm3"><a href="#">
+                    <div class="icon">icon</div>
+                    <div class="qm">
+                        <strong>광고영상</strong>
+                        <p>TV광고/동영상</p>
+                    </div>
+                </a></li>
+                <li class="qm4"><a href="#">
+                    <div class="icon">icon</div>
+                    <div class="qm">
+                        <strong>1:1문의</strong>
+                        <p>개선/문의사항</p>
+                    </div>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="footer"></div>
+            <div class="footer_wrap ">
+                <div class="util_menu clearfix">
+                    <ul>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+                        <li><a href="#">점주관리자</a></li>
+                        <li><a href="#">Subwary Listens</a></li>
+                    </ul>
+                </div>
+                
+                <div class="infromation">
+                    <span class="adder">서울시 서초구 강남대로 535 프린스빌딩 15층</span>
+                    <span class="rep">대표:콜린클락</span>
+                    <span class="tel">전화 : 02-797-5036</span>
+                    <span class="rep">사업자등록번호: 101-84-04143</span>
+                    <p class="copy">SUBWAY® is a Registered Trademark of Subway IP LLC. © 2019 Subway IP LLC. All Rights Reserved.</p>
+                    <p class="copy2">SUBWAY® is a Registered Trademark of Subway IP LLC.<br> © 2019 Subway IP LLC. All Rights Reserved.</p>
+                    <a href="#" class="instrgram">
+                        instrgram</a>
+                    <a href="#" class="facebook">facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
