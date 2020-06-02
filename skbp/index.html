@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK바이오팜</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <style>
+        .bx-wrapper{box-shadow:none; border:none; background:none;}
+        .bx-pager{display:flex;flex-direction:column-reverse;position: absolute;top:20%;right:-75%;width:50px;height:250px;}
+        .bx-pager-item{display:block;padding-top:30px;}
+        .bx-wrapper{background:none;}
+        .bx-wrapper .bx-pager.bx-default-pager a{border:3px solid rgba(255,255,255,0.5);background-color:transparent;border-radius:100px;width:20px;
+        height:20px;overflow: hidden;}
+        .bx-wrapper .bx-pager.bx-default-pager a.active{background:#e51b38;border:3px solid #e51b38;}
+        .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto{position: absolute;top:73%;right:0;padding-right:40px;}
+        .bx-wrapper .bx-viewport{border:none;background:none;}
+        
+        
+        
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="header">
+            <div class="inner">
+                <h1>
+                    <img src="https://www.skbp.com/resources/img/kor/common/logo.png">
+                </h1>
+                <div class="world">
+                    <a href="#">
+                        <img src="icon/ueser.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="m_gnb">
+            <button class="btn_menu">메뉴닫기</button>
+        </div>
+        <div class="gnb_top">
+            <nav class="gnb">
+                <ul class="gnb_wrap">
+                    <li><a href="#">회사소개</a>
+                        <ul>
+                            <li><a href="#">회사 개요</a></li>
+                            <li><a href="#">회사 연혁</a></li>
+                            <li><a href="#">네트워크</a></li>
+                            <li><a href="#">고객 문의</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">파이프라인</a>
+                        <ul>
+                            <li><a href="#">파이프라인</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">연구개발</a>
+                        <ul>
+                            <li><a href="#">연구 역량</a></li>
+                            <li><a href="#">연구 분야</a></li>
+                            <li><a href="#">전략적 제휴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">뉴스</a>
+                        <ul>
+                            <li><a href="#">보도자료</a></li>
+                            <li><a href="#">공시자료</a></li>
+                            <li><a href="#">공지</a></li>
+                            <li><a href="#">행사</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">채용</a>
+                        <ul>
+                            <li><a href="#">채용</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="background"></div>
+        </div>
+
+    </header>
+    <section id="main">
+        <div class="contetnt">
+            <h2>
+                <strong>FOR THE HEALTHY<br>
+                FUTURE</strong>OF OUR <br>
+                CUSTMOERS
+            </h2>
+            <p>글로벌 혁신 신약 개발 기업.<br>
+            SK바이오팜</p> 
+            <a href="#" class="moreabout">MORE ABOUT US</a>
+        </div>
+        
+        <div class="slider">
+            <div class="mv1">1</div>
+            <div class="mv2">2</div>
+            <div class="mv3">3</div>
+            <div class="mv4">4</div>
+        </div>
+    </section>
+        <script>
+            $('.slider').bxSlider({
+            auto: true,
+            autoControls: true,
+            controls:false
+        });
+
+        </script>
+    <section class="Company">
+        <div class="company_wrap">
+            <h2>OUR COMPANY</h2>
+            <nav class="com_overy clearfix">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="com1 box_com">
+                                <span class="icon_1 icon-com">
+                                    <img src="icon/mv_ico1.png">
+                                </span>
+                                <h3>
+                                    <span>회사개요</span>
+                                        Company Overview
+                                </h3>
+                                <p>환자들의 행복과 삶의 질 개선을 위한<br>
+                                    혁신 신약을 연구합니다.</p>
+                            </div> 
+                        </a>
+                    </a> 
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="com2 box_com">
+                                <span class="icon_2 icon-com">
+                                    <img src="icon/mv_ico2.png">
+                                </span>
+                                <h3>
+                                    <span>네트워트</span>
+                                    Network
+                                </h3>
+                                <p>신약 개발 전주기를 독자적으로 수행가능한<br>
+                                경쟁력 있는 글로벌 제약사를 지향합니다.</p>
+                            </div>
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="com3 box_com">
+                                <span class="icon_3 icon-com">
+                                    <img src="icon/mv_ico3.png">
+                                </span>
+                                <h3>
+                                    <span>고객문의</span>
+                                    Customer lnquiry
+                                </h3>
+                                <p>고객의 소중한 의견에<br>
+                                항상 귀 기울이겠습니다.</p>
+                          </div>
+                        </a> 
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section class="innovation">
+        <div>
+            <h2>INNOVATION</h2>
+            <div class="slider2">
+                <div class="content">
+                    <div class="img_box img1box"><img src="https://www.skbp.com/resources/img/common/main/img_key_1.jpg" class="imgboxx"></div>
+                    <div class="key_box key1">
+                        <div class="cey_cont">
+                            <h3>
+                                <span>01</span>
+                                PIPELINE
+                            </h3>
+                            <p>경쟁력 있는 신약 후보 물질을 개발하고 있습니다.</p>
+                            <a href="#">MORE</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content">
+                    <div class="img_box img2box"><img src="https://www.skbp.com/resources/img/common/main/img_key_2.jpg" class="imgboxx"></div>
+                    <div class="key_box key2">
+                        <div class="cey_cont">
+                            <h3>
+                                <span>02</span>
+                                4&D
+                            </h3>
+                            <p>중추신곙계(CNS) 질환 분야에 R&D 역량을 집중하고 있습니다.</p>
+                            <a href="#">MORE</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="content">
+                    <div class="img_box img3box"><img src="https://www.skbp.com/resources/img/common/main/img_key_3.jpg" class="imgboxx"></div>
+                    <div class="key_box key3">
+                        <div class="cey_cont">
+                            <h3>
+                                <span>03</span>
+                                STRATEGIC ALLIANCE
+                            </h3>
+                            <p>세계 시장을 지향하는 바이오팜과 함께 하십시오.</p>
+                            <a href="#">MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $('.slider2').bxSlider({
+          auto: true,
+          autoControls: true,
+          controls:true,
+          pager:false
+        });
+      </script>
+    <section class="newsbio">
+        <div class="bioform">
+            <h2>NEWS</h2>
+            <p class="event">SK바이오폼의 새로운 소식과 이벤트를 만나보십시오.</p>
+            <div class="wrap_news clearfix">
+                <div class="box_benws">
+                    <a href="#">
+                        <div class="box_bnews_img">
+                        </div>
+                        <div class="cont box">
+                            <h3>SK바이오팜 조정우 사장,'세노바메이트'로 대한민국 신약개발상 대상수상</h3>
+                            <span class="material">보도자료</span>
+                            <span class="time">2020.05.12</span>
+                            <p>SK바이오팜(www.skbp.com, 대표이사 사장 조정우)은 독자 개발한 뇌전증 신약<br> 세노바메이트(미국 제품명: 엑스코프리™, XCOPRI®)가 11일(현지 시각) 미국 시장에 출시되었다고 발표했다. 판매는 SK바이오팜의 미국 법인인 SK라이프사이언스가 맡아 진행한다.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="text_wrap">
+                    <div class="cont_wrap">
+                       <ul>
+                           <li><a href="#">
+                               <div class="cont">
+                                   <h3>SK바이오팜 세노바메이트 연구 논문 국제 할술지 게재</h3>
+                                   <span class="material">보도자료</span>
+                                   <span class="time">2020.05.21</span>
+                               </div>
+                           </a></li>
+                           <li><a href="#">
+                            <div class="cont"> 
+                                <h3>SK바이오팜, 상장 절차 본격 돌입...금융위원회 증곤 신고서 제출</h3>
+                                <span class="material">보도자료</span>
+                                <span  class="time">2020.05.19</span>
+                            </div>
+                           </a></li>
+                           <li><a href="#">
+                               <div class="cont">
+                                <h3>SK바이오팜 조정우 사장, 과학시술 훈장 혁신장 수상</h3>
+                                <span class="material">보도자료</span>
+                                <span  class="time">2020.04.21</span>
+                               </div>
+                           </a></li>
+                       </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_wrap clearfix">
+            <div class="gray_logo">
+                <img src='icon/img_common.png'>
+            </div>
+            <div class="rights">
+                <p>© SK BIOPHARMACEUTICALS All rights reserved</p>   
+            </div>
+            <div class="wa">
+                <a href="#">개인정보처리방침</a>
+            </div>
+            <div class="wer">
+                <img src="https://www.skbp.com/resources/img/kor/common/accessibility_mark.png">
+            </div>
+            <div class="site">
+                <select onchange="if(this.value) location.href=(this.value);">
+
+                    <option value="">Fmaily site
+                    
+                    <option value="http://www.sk.com/">SK주식회사
+                    <option value="http://www.skbiotek.com/Eng/Default.aspx">바이오텍
+                    
+                    </select>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

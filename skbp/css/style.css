@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+header{width:100%;position:fixed;z-index:2;background:#fff;z-index:100;}
+.header{width:100%;}
+/* .header{width:1600px;margin:0 auto;background:#fff;} */
+.inner{max-width:1300px; margin:0 auto;padding-top:20px;}
+.inner h1{float: left;position: relative;z-index:10;}
+.gnb_top{position: absolute;left:0;top:30px;width:100%;height:60px;overflow: hidden;transition:1s;padding-left:550px;w}
+.gnb_top:hover{height:250px;width:100%;padding-bottom:200px;}
+.gnb_top .background{position: absolute;left:0;top:63px;width:100%;background:#fcfcfc;height:250px;}
+/* .gnb{position: absolute;left:50%;transform:translateX(-50%);} */
+.gnb_wrap{float:left;}
+.gnb_wrap>li{float:left;min-width:145px;}
+.gnb_wrap>li>a{position: relative;display:block;height:80px;font-size:19px;line-height:82px;color:#111;font-weight: bold;z-index:5;}
+.gnb_wrap ul{position: absolute;top:80px;z-index: 5;}
+.gnb_wrap ul a{color:#666;padding:5px;line-height:44px}
+.world{position: absolute;right:280px;top:45px;;padding-top:12px;cursor: pointer;;z-index:10;}
+.m_gnb{display:none;}
+.main{width:100%;position: relative;}
+.contetnt{position: absolute;color:#fff;left:20%;top:10%;z-index:1;max-width:1080px;margin:auto;display:block;}
+.contetnt h2{font-size:56px;line-height:60px;font-weight: normal;}
+.contetnt p{position: relative;margin-top:20px;padding:35px 0; line-height:30px;}
+.contetnt p:after{content:"";width:67px;height:3px;position: absolute;top:0;left:0;background:#e51937;}
+.moreabout{display:block;width:195px;height:50px;line-height:50px;font-weight:bold;text-align:center;border:1px solid #bababa;color:#111;
+    background: rgba(255, 255, 255, 0.5);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;}
+.moreabout:hover{background:rgba(0, 0, 0, 0.5)}
+.slider{height:556px;}
+.mv1{background:url('https://www.skbp.com/resources/img/common/main/visual_1.jpg') no-repeat center;height:556px; text-indent:-99999px;}
+.mv2{background:url('https://www.skbp.com/resources/img/common/main/visual_4.jpg') no-repeat center;height:556px; text-indent:-99999px;}
+.mv3{background:url('https://www.skbp.com/resources/img/common/main/visual_3.jpg') no-repeat center;height:556px; text-indent:-99999px;}
+.mv4{background:url('https://www.skbp.com/resources/img/common/main/visual_2.jpg') no-repeat center;height:556px; text-indent:-99999px;}
+.company{width:100%;height:708px;}
+.company_wrap{width:1300px; margin:0 auto;padding:80px 20px;}
+.company_wrap h2{font-size:44px;position: relative;margin-bottom:25px;padding-bottom:15px;text-align:center;}
+.company_wrap h2:after{content:"";position: absolute;bottom:0;left:50%;display:block;width:28px;height:2px;
+margin-left:-14px;background-color:#e51937;}
+.com_overy ul{max-width:1140px; padding:20px 0 0; margin: 0 auto;box-sizing:border-box;}
+.com_overy li{float:left;width:30%;margin-right:30px;height:635px;}
+.com_overy li:nth-child(3){padding:0;}
+.com_overy li a{display:inline-block;width:100%;}
+.com1 {background:#8c929c url('https://www.skbp.com/resources/img/common/common/bg-line1.png') repeat;position: relative;height:295px;}
+.com2 {background:#738898 url('https://www.skbp.com/resources/img/common/common/bg-line1.png');position: relative;height:295px;}
+.com3 {background:#666769 url('https://www.skbp.com/resources/img/common/common/bg-line1.png') repeat;position: relative;height:295px;}
+.box_com{padding:0 0 85px; margin-top:115px;margin-bottom:25px; transition: all 2s ease;}
+.box_com:hover{margin-top:30px;}
+.box_com h3{text-align:center;font-size:28px;color:#fff;padding-top:120px;}
+.box_com h3 span{position: relative; display:block; font-size:18px;padding-bottom:10px;margin-bottom:15px;font-size:18px;text-align:center;}
+.box_com p{font-size:16px;line-height:24px; color:#fff;text-align:center;padding-top:20px;}
+.icon-com{width:210px;height:210px;position: relative;}
+.icon-com{position: absolute; top:-120px;left:17%;}
+.innovation{width:100%;background:url(https://www.skbp.com/resources/img/common/main/bg_con2.png) no-repeat center;background-size:cover;height:930px;padding:80px 20px;font-weight:lighter;}
+.innovation h2{color:#fff;padding-bottom:50px;font-size:50px;text-align:center;}
+.contetn{background:transparent;}
+.img_box{float:left;padding-left:10%;}
+.key_box{width:550px;height:550px;position: absolute;top:0;right:20%;;}
+.key1{background:#be273d url('https://www.skbp.com/resources/img/common/common/bg-line2.png') repeat;
+margin-left:-20px; margin-top:40px; margin-bottom:55px; box-shadow:-30px 30px 20px rgba(0,0,0,0.3);}
+.key2{background:#e18242 url('https://www.skbp.com/resources/img/common/common/bg-line2.png') repeat;
+    margin-left:-20px; margin-top:40px; margin-bottom:55px; box-shadow:-30px 30px 20px rgba(0,0,0,0.3);}
+.key3{background:#385385 url('https://www.skbp.com/resources/img/common/common/bg-line2.png') repeat;
+    margin-left:-20px; margin-top:40px; margin-bottom:55px; box-shadow:-30px 30px 20px rgba(0,0,0,0.3);}
+.cey_cont{margin:50px 0 70px 70px;}
+.cey_cont h3{font-size:40px;line-height:60px;color:#fff;}
+.cey_cont span{font-size:50px;display:block;}
+.cey_cont p{font-size:16px;line-height:30px;margin:15px 0 35px 0; color:#fff;}
+.cey_cont a{width:165px;height:40px;line-height:40px;font-weight:bold;font-size:14px;border:1px solid #fff;
+background:rgba(255,255,255,0); color:#fff;display:block;text-align:center;transition: background-color .5s;}
+.cey_cont a:hover{background:#fff;color:#be273d;}
+.newsbio{width:100%;background:#f7f9ff;}
+.bioform{width:1300px;margin:0 auto;padding:80px 60px;}
+.bioform h2{font-size:44px;position: relative;margin-bottom:25px;padding-bottom:15px;text-align:center;}
+.bioform h2:after{content:"";position: absolute;bottom:0;left:50%;display:block;width:28px;height:2px;margin-left:-14px;background-color:#e51937;}
+.bioform p{font-size:18px;color:#666;}
+.wrap_news{min-width:1140px; width:100%;margin:0 auto; padding-top:55px;}
+.box_benws{float:left;width:50%;text-align:left;padding-right:20px;position: relative;z-index:10;box-sizing:border-box;float:left;}
+.box_bnews_img{position: relative;height: 220px; display:block;background:url('https://www.skbp.com/hpict/download/20200529091503LRDR.jpg?type=list') center center;
+background-size:cover;z-index:10;}
+.text_wrap{width:50%;box-sizing:border-box;float:left;}
+.cont .box{padding:40px 30px 25px 30px;}
+.cont h3{margin-bottom:12px;font-size:28px;line-height:40px;color:#111;overflow: hidden;text-overflow:ellipsis;font-weight:lighter;}
+.material{width:84px;height:22px;line-height:22px;text-align:center;font-size:13px;color:#737373;
+border:1px solid #c8c8c8;}
+.time{font-size:13px;color:#737373;}
+.cont p{ overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;width:60%;}
+footer{width:100%;height:105px;}
+.footer_wrap{width:1300px;margin:0 auto;text-align:center;position: relative;}
+.gray_logo{width:150px;height:47px;}
+.gray_logo img{position: absolute;top:30px;left:0;}
+.rights{height:47px;}
+.rights{font-size:12px;color:#666;;position: absolute;top:65px;left:40%;}
+.wa{position: absolute;top:65px;right:355px;}
+.wa a{font-size:13px;color:#666;}
+.wer{position: absolute;top:35px;right:220px;}
+.site{position: absolute;top:65px;right:100px;}
+
+@media (max-width:1220px){
+    #header{width:100%;height:40px;position: fixed;top:0;left:0;}
+    .header{width:100%;}
+    .inner{width:100%;}
+    .inner h1{width:60px; position: absolute;top:-20px;left:10px;}
+    .gnb_top{display:none;}
+    .world{display:none;}
+    .m_gnb{display:block;position: absolute;top:15px;right:10px;;cursor: pointer;}
+    .btn_menu{border:none;text-indent:-99999px;background:url('../icon/btn_menu_m.png') 0 0 no-repeat;
+        width:23px;height:17px;background-size:100%;z-index:2;}
+    .main{width:100%;}
+    .contetnt{width:100%;position: absolute;left:7px;top:10%;z-index:1;}
+    .contetnt h2{font-size:28px;line-height:35px;}
+    .contetnt p{font-size:12px;line-height:18px;margin-top:0;padding:10px 0;}
+    .contetnt p:after{content:none;}
+    .moreabout{width:105px;height:30px;line-height:30px;font-size:10px;}
+    .company{width:100%;}
+    .company_wrap{width:100%;padding:20px 40px;height:460px;}
+    .company_wrap h2{font-size:25px;}
+    .company_wrap h2:after{width:14px;height:1px;margin-left:-7px;}
+    .box_com{padding:0 0 25px;margin-top:30px;margin-bottom:25px;transition: all 2s ease;height:225px;}
+    .box_com:hover{margin-top:30px;}
+    .box_com h3{font-size:20px;padding:50px 0 0 0 ;}
+    .box_com h3 span{position: relative; display:block;font-size:15px;font-weight:normal;padding-bottom:10px;margin-bottom:10px;}
+    .box_com p{font-size:12px;line-height:24px; color:#fff;text-align:center;padding:0;}
+    .icon-com{width:100px;height:100px;position: absolute;top:-60px;lefT:35%;}
+    .com_overy li{height:280px;margin-right:15px;}
+    .innovation{width:100%;height:auto;padding:25px 0;}
+    .innovation h2{font-size:25px;padding-bottom:25px;margin:0;background-size:auto;}
+    .content{height:500px;}
+    .imgboxx{display:none !important;}
+    .img_box{float:none;max-width:560px;width:100%;margin-left:auto;margin-right:auto;height:250px;position: absolute;top:0;lefT:20%;}
+    .img1box{background:url('https://www.skbp.com/resources/img/common/main/img_key_1_m.jpg');}
+    .img2box{background:url('https://www.skbp.com/resources/img/common/main/img_key_2_m.jpg');}
+    .img3box{background:url('https://www.skbp.com/resources/img/common/main/img_key_3_m.jpg');}
+    .key_box{width:100%;max-width:560px;height:auto;box-shadow:none;position: absolute;top:200px;;left:22%;}
+    .key1{background:#be273d url('https://www.skbp.com/resources/img/common/common/bg-line2.png') repeat;}
+    .key2{background:#e18242 url('https://www.skbp.com/resources/img/common/common/bg-line2.png') repeat;}
+    .key3{background:#385385 url('https://www.skbp.com/resources/img/common/common/bg-line2.png') repeat;}
+    .cey_cont{margin:20px;}
+    .cey_cont h3{font-size:25px;line-height:30px;color:#fff;}
+    .cey_cont span{font-size:25px;display:block;}
+    .cey_cont p{font-size:12px;line-height:20px;margin:15px 0 20px 0; color:#fff;}
+    .cey_cont a{width:100px;height:30px;line-height:30px;font-weight:bold;font-size:12px;border:1px solid #fff;}
+    .newsbio{width:100%;}
+    .bioform{width:100%;padding:30px 10px;}
+    .bioform h2{font-size:25px;margin-bottom:15px;padding-bottom:15px;}
+    .bioform p{font-size:12px;text-align: center;}
+    .box_benws{background:#Fff;box-sizing:border-box;max-width:100%;width:1080px;margin:0 auto;}
+    .wrap_news{max-width:100%;width:688px;margin:0 auto;box-sizing:border-box;padding-left:20px;}
+    .box_bnews_img{height:320px;width:100%;}
+    .text_wrap{width:100%;box-sizing:border-box;margin-left:0;}
+    .cont h3{font-size:14px;line-height:21px;margin-bottom:5px;color:#000;padding:20px 0;}
+    .material{width:60px;height:17px;line-height:17px;font-size:10px;
+    margin-right:5px;}
+    .time{font-size:10px;}
+    footer{Width:100%;height:190px;}
+    .footer_wrap{width:100%; padding:25px 0 15px 0;}
+    .gray_logo{position: absolute;top:0;left:50%;margin-left:-61px;width:60px;height:24px;}
+    .rights{position: absolute;top:62px;;left:50%;margin-left:-180px;}
+    .wa{position: absolute;top:80px;;left:50%;margin-left:-180px;}
+    .wer{position: absolute;top:100px;;left:50%;margin-left:-80px;width:60px;height:24px;}
+    .site{position: absolute;top:150px;left:0;}
+}
+
+@media (max-width:768px){
+    #header{width:100%;height:40px;position: fixed;top:0;left:0;}
+    .header{width:100%;}
+    .inner{width:100%;}
+    .inner h1{width:60px; position: absolute;top:-20px;left:10px;}
+    .gnb_top{display:none;}
+    .world{display:none;}
+    .m_gnb{display:block;position: absolute;top:15px;right:10px;;cursor: pointer;}
+    .btn_menu{border:none;text-indent:-99999px;background:url('../icon/btn_menu_m.png') 0 0 no-repeat;
+        width:23px;height:17px;background-size:100%;z-index:2;}
+    .main{width:100%;}
+    .contetnt{width:100%;position: absolute;left:7px;top:10%;z-index:1;}
+    .contetnt h2{font-size:28px;line-height:35px;}
+    .contetnt p{font-size:12px;line-height:18px;margin-top:0;padding:10px 0;}
+    .contetnt p:after{content:none;}
+    .moreabout{width:105px;height:30px;line-height:30px;font-size:10px;}
+    .company{width:100%;}
+    .company_wrap{width:100%;padding:20px 40px 20px 80px;height:460px;}
+    .company_wrap h2{font-size:25px;}
+    .company_wrap h2:after{width:14px;height:1px;margin-left:-7px;}
+    .box_com{padding:0 0 25px;margin-top:30px;margin-bottom:25px;transition: all 2s ease;height:225px;}
+    .box_com:hover{margin-top:30px;}
+    .box_com h3{font-size:20px;padding:50px 0 0 0 ;}
+    .box_com h3 span{position: relative; display:block;font-size:15px;font-weight:normal;padding-bottom:10px;margin-bottom:10px;}
+    .box_com p{font-size:12px;line-height:24px; color:#fff;text-align:center;padding:0;}
+    .icon-com{width:100px;height:100px;position: absolute;top:-60px;lefT:25%;}
+    .com_overy li{height:280px;padding-right:10px;margin-right:10px;}
+    .innovation{width:100%;height:auto;padding:25px 0;}
+    .innovation h2{font-size:25px;padding-bottom:25px;margin:0;background-size:auto;}
+    .imgboxx{display:none !important;}
+    .img_box{float:none;max-width:560px;width:100%;margin-left:auto;margin-right:auto;height:250px;position: absolute;top:0;lefT:15%;}
+    .img1box{background:url('https://www.skbp.com/resources/img/common/main/img_key_1_m.jpg');}
+    .img2box{background:url('https://www.skbp.com/resources/img/common/main/img_key_2_m.jpg');}
+    .img3box{background:url('https://www.skbp.com/resources/img/common/main/img_key_3_m.jpg');}
+    .key_box{width:100%;max-width:560px;height:auto;box-shadow:none;position: absolute;top:200px;;left:17%;}
+    .cey_cont{margin:20px;}
+    .cey_cont h3{font-size:25px;line-height:30px;color:#fff;}
+    .cey_cont span{font-size:25px;display:block;}
+    .cey_cont p{font-size:12px;line-height:20px;margin:15px 0 20px 0; color:#fff;}
+    .cey_cont a{width:100px;height:30px;line-height:30px;font-weight:bold;font-size:12px;border:1px solid #fff;}
+    .newsbio{max-width:100%;}
+    .bioform{max-width:100%;padding:0;}
+    .bioform h2{font-size:23px;margin-bottom:15px;padding-bottom:15px;}
+    .bioform p{font-size:12px;text-align: center;}
+    .box_benws{background:#Fff;box-sizing:border-box;max-width:100%;width:688px;margin:0 auto;}
+    .wrap_news{max-width:100%;width:688px;margin:0 auto;box-sizing:border-box;padding-left:20px;}
+    .box_bnews_img{height:320px;width:100%;}
+    .text_wrap{width:100%;box-sizing:border-box;margin-left:0;}
+    .cont h3{font-size:14px;line-height:21px;margin-bottom:5px;color:#000;padding:20px 0;}
+    .material{width:60px;height:17px;line-height:17px;font-size:10px;
+    margin-right:5px;}
+    .time{font-size:10px;}
+    footer{Width:100%;height:190px;}
+    .footer_wrap{width:100%; padding:25px 0 15px 0;}
+    .gray_logo{position: absolute;top:0;left:50%;margin-left:-61px;width:60px;height:24px;}
+    .rights{position: absolute;top:62px;;left:50%;margin-left:-180px;}
+    .wa{position: absolute;top:80px;;left:50%;margin-left:-150px;}
+    .wer{position: absolute;top:100px;;left:50%;margin-left:-80px;width:60px;height:24px;}
+    .site{position: absolute;top:150px;left:0;}
+}
+@media (max-width:480px){
+    #header{width:100%;}
+    .header{width:100%;}
+    .inner{width:100%;}
+    .main{width:100%;}
+    .contetnt{width:100%;}
+    .company{width:100%;;}
+    .company_wrap{width:100%;padding:25px 20px;height:auto;}
+    .box_com{padding:0 0 25px;margin-top:30px;margin-bottom:45px;transition: all 2s ease;height:225px;}
+    .box_com h3{font-size:20px;padding:50px 0 0 0 ;}
+    .box_com h3 span{position: relative; display:block;font-size:15px;font-weight:normal;padding-bottom:10px;margin-bottom:10px;}
+    .box_com p{font-size:12px;line-height:24px; color:#fff;text-align:center;padding:0;}
+    .icon-com{width:100px;height:100px;position: absolute;top:-60px;lefT:35%;}
+    .com_overy li{height:280px;padding-right:10px;margin-right:10px;width:100%;margin-bottom:20px;}
+    .innovation{WIDTH:100%;height:auto;}
+    .img_box{float:none;width:100%;margin-left:auto;margin-right:auto;height:250px;position: static;padding:0;}
+    .key_box{width:100%;height:auto;box-shadow:none;position: absolute;top:200px;left:20px;padding:0 20px;}
+    .cey_cont{margin:0;}
+    .bx-wrapper{width:100%;background:none;}
+    .bx-next{display:none;}
+    .bx-prev{display:none;}
+    .cey_cont h3{font-size:18px;line-height:30px;color:#fff;}
+    .cey_cont span{font-size:18px;display:block;}
+    .cey_cont p{font-size:10px;line-height:20px;margin:15px 0 20px 0; color:#fff;}
+    .cey_cont a{width:100px;height:30px;line-height:30px;font-weight:bold;font-size:12px;border:1px solid #fff;}
+    .newsbio{width:100%;}
+    .bioform{width:100%;}
+    .newsbio{width:100%;}
+    .bioform{width:100%;padding:0;}
+    .bioform h2{font-size:20px;margin-bottom:15px;padding-bottom:15px;}
+    .bioform p{font-size:10px;text-align: center;}
+    .box_benws{background:#Fff;box-sizing:border-box;width:100%;margin:0 auto;}
+    .wrap_news{max-width:100%;width:100%;box-sizing:border-box;padding:0;}
+    .box_bnews_img{display:none;}
+    .text_wrap{width:100%;box-sizing:border-box;margin-left:0;}
+    .cont h3{font-size:10px;line-height:21px;margin-bottom:5px;color:#000;padding:20px 0;}
+    .bioform p{display:none;}
+    .material{width:60px;height:17px;line-height:17px;font-size:10px;
+    margin-right:5px;}
+    .time{font-size:10px;}
+    footer{Width:100%;height:250px;}
+    .footer_wrap{width:100%; padding:25px 0 35px 0;}
+    .gray_logo{position: absolute;top:0;left:50%;width:100%;}
+    .rights{position: absolute;top:85px;;left:50%;width:100%;}
+    .wa{position: absolute;top:100px;;left:35%;width:100%;}
+    .wer{position: absolute;top:120px;;left:20%;width:100%;}
+    .site{position: absolute;top:200px;left:0;width:100%;}
+
+}
